@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55" started-at="2020-04-22T19:53:16Z" finished-at="2020-04-22T19:53:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55" started-at="2020-04-22T19:53:16Z" finished-at="2020-04-22T19:53:16Z">
+      <class name="testNGannotations.TestAnnotations">
+        <test-method status="PASS" signature="NegativePriority()[pri:-1, instance:testNGannotations.TestAnnotations@4de5031f]" name="NegativePriority" duration-ms="12" started-at="2020-04-22T19:53:16Z" finished-at="2020-04-22T19:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativePriority -->
+        <test-method status="PASS" signature="AZeroPriority()[pri:0, instance:testNGannotations.TestAnnotations@4de5031f]" name="AZeroPriority" duration-ms="2" started-at="2020-04-22T19:53:16Z" finished-at="2020-04-22T19:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AZeroPriority -->
+        <test-method status="PASS" signature="WithoutPriority()[pri:0, instance:testNGannotations.TestAnnotations@4de5031f]" name="WithoutPriority" duration-ms="2" started-at="2020-04-22T19:53:16Z" finished-at="2020-04-22T19:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WithoutPriority -->
+        <test-method status="PASS" signature="OnePriority()[pri:1, instance:testNGannotations.TestAnnotations@4de5031f]" name="OnePriority" duration-ms="1" started-at="2020-04-22T19:53:16Z" finished-at="2020-04-22T19:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnePriority -->
+        <test-method status="PASS" signature="TwoPriority()[pri:2, instance:testNGannotations.TestAnnotations@4de5031f]" name="TwoPriority" duration-ms="1" started-at="2020-04-22T19:53:16Z" finished-at="2020-04-22T19:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TwoPriority -->
+      </class> <!-- testNGannotations.TestAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
